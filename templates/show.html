@@ -35,11 +35,12 @@ Quibusdam aliquid, ducimus eveniet non deserunt quo possimus, eligendi impedit c
 <td>{{x.subject}}</td>
 <td>{{x.message}}</td>
 
-</tr>
-<tr>
 
+<td>
+    <a href="/edit/{{x.id}}" class="btn btn-warning">Edit</a>
 <a href="/delete/{{ x.id }}" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this contact message?');">Delete</a>
-<td><a href="/edit/{{x.id}}" class="btn btn-primary">Edit</a></td>
+<a href="/pay/{{ x.id }}" class="btn btn-success" onclick="return confirm('Are you sure you want to pay for this contact message?');">Pay</a>
+</td>
 
 
 </tr>

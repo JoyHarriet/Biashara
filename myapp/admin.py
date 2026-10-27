@@ -3,4 +3,4 @@ from myapp.models import *
 
 
 admin.site.register(Contact)
-
+admin.site.register(Transaction)
